@@ -1,0 +1,15 @@
+var lang = { 
+added_to_cart:"Ditambahkan ke keranjang",
+error_to_cart:"Masalah dengan keranjang belanja! Coba lagi!",
+no_products:"Tidak ada produk",
+confirm_clear_cart:" Anda yakin ingin menghapus item di keranjang belanja?",
+cleared_cart:"Keranjang belanja anda kosong",
+are_you_sure:"Apakah kamu yakin?",
+yes:"Ya",
+no:"Tidak",
+clear_all:"Clear",
+checkout:"Pembayaran",
+remove_from_cart:"Dihapus dari keranjang belanja",
+enter_valid_email:"Harap masukan alamat email yang valid!",
+discountCodeInvalid:"Kode diskon tidak valid",
+};

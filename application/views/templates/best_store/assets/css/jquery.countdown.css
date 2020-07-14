@@ -1,0 +1,118 @@
+.countdownHolder{
+	font: 23px/0.8 'Roboto Condensed', sans-serif;
+	height: 89px;
+	padding-top:1em;
+}
+.position{
+	display: inline-block;
+	height: 1em;
+	overflow: hidden;
+	position: relative;
+	width: 20px;
+	font-weight: 500;
+	font-size: 0.85em;
+}
+.digit{
+	color: #212121;
+	letter-spacing:0;
+	left: 0;
+	bottom: 0;
+	position:absolute;
+}
+.countDays{ /* display:none !important;*/ }
+.countDiv0{ /* display:none !important;*/ }
+.countHours{}
+.countDiv1{}
+.countMinutes{}
+.countDiv2{}
+.countSeconds{}
+.countDiv{
+	display:inline-block;
+	width:35px;
+	height:1.6em;
+	position:relative;
+}
+.countDiv:after{
+	top:0.9em;
+}
+/*--responsive design--*/
+@media (max-width: 1366px){
+}
+@media (max-width:1280px){
+	.position {
+		width:30px;
+		font-size:50px;
+	}
+}
+@media (max-width:1080px){
+	.position {
+		font-size: 35px;
+		width: 23px;
+	}
+}
+@media (max-width:1024px){
+.position {
+	font-size: 35px;
+	width: 19px;
+	margin-top:22px;
+}
+.boxName {
+	font-size: 14px;
+}
+.countdownHolder {
+	padding-top:0.5em;
+}
+}
+@media (max-width:800px){
+.position {
+	margin-top: 19px;
+}
+}
+@media (max-width: 768px){
+}
+@media (max-width:640px){
+	.position {
+		width: 16px;
+		font-size: 25px;
+	}
+}
+@media (max-width:480px){
+.countDays{ /* display:none !important;*/ }
+.countDiv0{ /* display:none !important;*/ }
+.countHours{}
+.countDiv1{}
+.countMinutes{}
+.countDiv2{}
+.countSeconds{}
+.countDiv{
+	width:30px !important;
+}
+.countdownHolder {
+	padding-top:0.2em;
+}
+}	
+@media (max-width:414px){
+	.countDiv {
+		width: 1px !important;
+	}
+	.position {
+		margin-top: 0;
+	}
+	.countHours, .countDays, .countMinutes {
+		border-right: none;
+	}
+}
+@media (max-width: 320px){
+	.countDays, .countHours, .countMinutes, .countSeconds {
+		width: 58px;
+		height: 58px;
+	}
+	#counter {
+		padding-top: 0;
+		height: 80px;
+	}
+	.boxName {
+		font-size: 13px;
+	}
+}
+/*--/responsive design--*/
